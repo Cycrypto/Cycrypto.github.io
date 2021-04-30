@@ -57,19 +57,22 @@ menu:
   
   - title:             Project / Memories
     url:               /pj/
+<<<<<<< HEAD
 
   - title:             Posts
     url:               /posts/
+=======
+>>>>>>> b89c68674b38c5f9574c94c2a5f9c122cf8af1d5
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  - title:             Algorithm
+    url:               /algo/
+  - title:             ComputerSciene
+    url:               /cs/
+  - title:             Project / Memories
+    url:               /pj/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
