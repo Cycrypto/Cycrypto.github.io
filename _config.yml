@@ -57,12 +57,12 @@ menu:
   
   - title:             Project / Memories
     url:               /pj/
-<<<<<<< HEAD
+
 
   - title:             Posts
     url:               /posts/
-=======
->>>>>>> b89c68674b38c5f9574c94c2a5f9c122cf8af1d5
+
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
