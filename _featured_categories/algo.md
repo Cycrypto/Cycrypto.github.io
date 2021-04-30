@@ -20,4 +20,8 @@ description: >
 # sitemap: false
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2493153095790277"
+     crossorigin="anonymous"></script>
+
 # Algorithm
+
