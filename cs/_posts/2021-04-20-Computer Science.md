@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Example Content
+slug: cs
 description: >
-  About JunHa
+  Post Index
 sitemap: false
 hide_last_modified: true
 ---

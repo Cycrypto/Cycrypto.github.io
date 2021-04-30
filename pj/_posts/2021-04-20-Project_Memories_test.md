@@ -2,7 +2,7 @@
 layout: post
 title: Example Content
 description: >
-  About JunHa
+  Project Index
 sitemap: false
 hide_last_modified: true
 ---

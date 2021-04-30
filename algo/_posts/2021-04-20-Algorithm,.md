@@ -2,7 +2,7 @@
 layout: grid
 title: Example Content
 description: >
-  About JunHa
+	Algorithm Test
 sitemap: false
 hide_last_modified: true
 ---
