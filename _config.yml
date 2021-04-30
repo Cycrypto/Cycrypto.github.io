@@ -50,13 +50,16 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Algorithm
-    url:               /example/
+    url:               /algo/
 
   - title:             ComputerSciene
-    url:               /docs/
+    url:               /cs/
   
   - title:             Project / Memories
-    url:               /about/
+    url:               /pj/
+
+  - title:             Posts
+    url:               /posts/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

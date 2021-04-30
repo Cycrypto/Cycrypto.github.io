@@ -3,15 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Example
+title: Project
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: example
+slug: pj
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  개인 또는 팀 프로젝트를 진행하면서 프로젝트 내용과 회고록에 관한 내용을 업로드할 공간.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
@@ -21,3 +20,4 @@ description: >
 # sitemap: false
 ---
 
+# Here is the Project Page
