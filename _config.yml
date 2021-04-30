@@ -58,10 +58,6 @@ menu:
   - title:             Project / Memories
     url:               /pj/
 
-
-  - title:             Posts
-    url:               /posts/
-
   - title:             Boj
     url:               /boj/
 
