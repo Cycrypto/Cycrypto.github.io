@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Discrete Math
-slug: discrete_math
+slug: /cs/discrete_math
 description: >
   Discrete Math upload Test
 sitemap: false
