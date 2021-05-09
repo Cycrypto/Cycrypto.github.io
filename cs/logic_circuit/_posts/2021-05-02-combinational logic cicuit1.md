@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Logic Circuit
 slug: logic_circuit
@@ -19,10 +18,8 @@ hide_last_modified: true
 2. [비교기](#비교기)
 3. [디코더](#디코더)
 4. [인코더](#인코더)
-5. 멀티플렉서
-6. 디멀티플렉서
-7. 코드 변환기
-8. 패리티 발생기/검출기
+
+   
 
 
 
@@ -110,12 +107,12 @@ hide_last_modified: true
 
   - 진리표
 
-    ![](https://lh3.googleusercontent.com/proxy/H7lJudbpe9sdTmvmaHgzbliqQNZ_IGDocL93-qRwg7PqWSSjQSsgqRCls3kBpEZXZR5NJLA-EouyLCAMXOLA7OP_tYJsYJYDlONyu2TGjcKpysfH0JE_b6hGUHWEVPKQF0PAMdGqj7XnJD711zOxFhlA2Kr4KzkaqSTn3jBm63uunAsUS8qD9KRpYhKmIz6MTMDbe5R-7tHsp0RV5FdsOhYxHAs)<br>
+    <img src="../img/combinational_logic_circuit1-14.jpg" style="zoom:50%;" />
 
     
 
   - 논리 회로<br>
-    ![](https://lh3.googleusercontent.com/proxy/nXSbqq6yHGAQ-lIchpEDB5Cl5X-omcGbp_7e-knTi6qdjIv6Hg6jh_AeyO6tuDMFLNWC4FY-RgP7LA4dId5GoUJcuHuDHp0LBflNh05N_3HQwEvfCntBZm2UjMXh3NFBV8lHGn8vuhZFhgeXjgR8dsrD6busGS3s-aoWrf6r1hMkEU4Ca3iglWjlhOuZ7-q4dYuI9VM1JRzXCsqYACTdBUV1IqMnVk2F_LqqmATv8EVo)
+    <img src="../img/combinational_logic_circuit1-15.jpg" style="zoom:70%;" />
 
 
 
@@ -139,11 +136,92 @@ hide_last_modified: true
 
 * 암호를 푸는 '복호기'
 
+* `enable`이 있다면 `1`일 때만 동작함.
+
   
+  
+  > * 입력선에 나타나는 $$n$$비트의 2진코드를 최대 $$2^n$$개의 서로 다른 정보로 바꿔주는 조합 논리 회로
+  >
+  > * `enable`이 있다면 디멀티플렉서의 기능도 수행
+  
+  
+  
+  <img src="../img/combinational_logic_circuit1-4.jpg" style="zoom:70%;" />
+
+<br>
+
+<br>
+
+#### 1 $$\times$$ 2 디코더
+
+<img src="../img/combinational_logic_circuit1-5.jpg" style="zoom:70%;" />
+
+
+
+#### 2 $$\times$$ 4 디코더
+
+<img src="../img/combinational_logic_circuit1-6.jpg" style="zoom:50%;" />
+
+#### 3 $$\times$$ 8 디코더
+
+<img src="../img/combinational_logic_circuit1-7.jpg" style="zoom:50%;" />
+
+
+
+#### 4 $$\times$$ 16 디코더
+
+* 진리표를 보고 구현하는 방식도 있으나, 3$$\times$$8 디코더 2개 또는 2$$\times$$4 디코더 4개 로 구성할 수도 있음
+
+<img src="../img/combinational_logic_circuit1-8.jpg" style="zoom:50%;" />
+
+<center>3 by 8</center>
+
+
+
+<img src="../img/combinational_logic_circuit1-9.jpg" style="zoom:50%;" />
+
+<center>2 by 4</center>
+
+
+
+<br><br>
+
+<br>
 
 ### 인코더
 
 * 코드를 만드는 회로
+
 * 어떤 정보를 퐇마하고 있는 여러 개의 입력 신호 중 단 하나의 활성화된 입력을 표현하기 위해 암호화 하여 출력하는 장치
+
 * 10진수 정보를 2진수와 같은 코드로 변환하는 '부호기'
+
+  > * 디코더의 반대기능을 수행하는 장치로, $$2^n$$개의 입력신호로부터 $$n$$개의 출력 신호를 만듦.
+  > * $$2^n$$개 중 활성화 된 하나의 1비트 입력 신호를 받아서 그 숫자에 해당하는 $$n$$비트의 2진정보를 출력함.
+
+  <img src="../img/combinational_logic_circuit1-3.jpg" style="zoom:70%;" />
+
+
+
+#### 2 $$\times$$ 1 디코더
+
+<img src="../img/combinational_logic_circuit1-10.jpg" style="zoom:70%;" />
+
+
+
+#### 4 $$\times$$ 2 디코더
+
+<img src="../img/combinational_logic_circuit1-11.jpg" style="zoom:60%;" />
+
+
+
+#### 8 $$\times$$ 3 디코더
+
+<img src="../img/combinational_logic_circuit1-12.jpg" style="zoom:50%;" />
+
+* **우선순위 인코더**
+
+  * 입력에 우선순위를 정하여 여러개의 입력이 있을 때 우선순위가 높은 입력값에 해당되는 출력신호를 만들어내는 회로
+
+  <img src="../img/combinational_logic_circuit1-13.jpg" style="zoom:50%;" />
 

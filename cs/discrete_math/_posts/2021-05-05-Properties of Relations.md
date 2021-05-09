@@ -17,8 +17,8 @@ hide_last_modified: true
 * [Relations on Sets (집합의 관계)](#Relations on Sets)
 * [Reflexivity(반사 관계), Symmetry(대칭 관계) and Transitivity (이행 관계)](#Reflexivity, Symmetry, and Transitivity)
 * [Equivalence Relations (동치 관계)](#Equivalence Relation)
-* Modular Arithmetic with Applications to Cryptography(나머지 연산이 암호학에 적용이 되는가)
-* Partial Order Relations (전 후 관계가 있는 관계)
+
+  
 
 
 
@@ -180,6 +180,18 @@ hide_last_modified: true
 
 
 
+#### Definition2
+
+> Let $$A$$ be a set with a partition and let $$R$$ be the relation induced by partition.
+>
+> Then, $$R$$ is reflexive, symmetric, and transitive.
+>
+> * A를 집합이라 하고, R을 A의 Relation이라고 하자.
+>
+>    R이 **equivalence relation**이라고 할때, R은 reflexive, symmetric, transtive 하다.
+
+
+
 
 
 #### Notation of an Equivalence Relation
@@ -193,3 +205,28 @@ hide_last_modified: true
 > Symbolically,
 >
 > $$m \equiv n (mod\, d) \Leftrightarrow d | (m - n)$$
+
+
+
+### Equivalence Classes of an Equivalence Relation
+
+#### Definition
+
+> $$A$$를 $$R$$의 집합이라고 가정하고, $$R$$을 $$A$$의 동치관계라고 할때,
+>
+> A에 있는 각각의 원소들은 *The Equivalence Class of a*라고 하고,
+>
+> denoted $$[a]$$ , called *the class of a for short, is the set of all elements x in A such that x is related to a by R*
+
+**Symbolically**
+
+$$[a] = \{x \in A \| _xR_a\}$$라고 표기한다.
+
+
+
+
+
+
+
+
+
