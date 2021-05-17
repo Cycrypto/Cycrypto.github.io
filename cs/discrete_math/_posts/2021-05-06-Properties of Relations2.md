@@ -12,7 +12,7 @@ hide_last_modified: true
 
 ### OverView
 
-* [Modular Arithmetic with Applications to Cryptography(나머지 연산이 암호학에 적용이 되는가)](Modular Arithmetic with Applications to Cryptography)
+* [Modular Arithmetic with Applications to Cryptography(나머지 연산이 암호학에 적용이 되는가)](#Modular Arithmetic with Applications to Cryptography)
 * Partial Order Relations (전 후 관계가 있는 관계)
 
 
@@ -30,8 +30,7 @@ hide_last_modified: true
 * 시저 암호 : 알파벳을 지정된 만큼 이동하여 encryption 함.
 
   * 각 글자의 빈도수를 알면 쉽게 해독 가능.
-    
-
+  
 * RSA 암호 : 최초의 공개 키 암호 시스템.
 
   * Congruence modulo n 이라는 특징을 알 필요가 있음.
