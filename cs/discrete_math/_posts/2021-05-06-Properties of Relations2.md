@@ -13,7 +13,7 @@ hide_last_modified: true
 ### OverView
 
 * [Modular Arithmetic with Applications to Cryptography(나머지 연산이 암호학에 적용이 되는가)](#Modular Arithmetic with Applications to Cryptography)
-* Partial Order Relations (전 후 관계가 있는 관계)
+* [partial Order Relations (전 후 관계가 있는 관계)](#Partial Order Relations)
 
 
 
@@ -54,7 +54,7 @@ hide_last_modified: true
     > if $$n$$ is any integer with $$n > 1$$, congruence modulo n is an equivalence relation on the set of all integers.
     >
     > $$a = 0, 1, 2, \cdots, n-1$$ then,  
-    > $$\[a\] = \{m \in Z \vert m \equiv a(mod n)\}$$
+    > $$[a] = \{m \in Z \vert m \equiv a(mod n)\}$$
     
       
     
@@ -118,3 +118,36 @@ hide_last_modified: true
 ### Finding an Inverse Modulo n
 
 > 정수 a와 음이아닌 정수 n이 있고, 정수 s가 존재 할 때 $$as \equiv 1 (mod\, n)$$이 성립한다면 s는 *an inverse for a modulo n*이라고 한다.
+
+* 만약 $$a$$와 $$b$$가 서로소 관계이고, 정수 $$s$$와 $$t$$가 존재할 떄
+  $$as + bt = 1$$이다.
+
+
+
+#### Euclid' s Lemma
+
+> For all integers $$a,\, b, \, c$$, if $$gcd(a,c) = 1$$ and $$a \vert bc, $$ then $$a \vert b$$
+
+
+
+#### Cancellation Theorem for Modular Congruence
+
+> For all integers $$a,\, b, \, c, \, n$$, if $$gcd(c,n) = 1$$ and $$ac \equiv bc(mod \, n)$$, then $$a \equiv b(mod\, n)$$
+
+
+
+#### Fremat's Little Theorem
+
+> If $$p$$ is any prime number and $$a$$ is any integer such that $$p \cancel{\vert} a$$, then $$a^{p-1} \equiv 1 (mod\, p)$$
+
+
+
+
+
+### Partial Order Relations
+
+#### Definition
+
+> $$R$$이 집합 $$A$$의 관계라고 하자.
+>
+> $$R$$은 *antisymmetric* iff, for all $$a \text{ and } b \text{ in } A$$, if $$_aR_b \text{ and } _bR_a$$then a=b
