@@ -112,3 +112,9 @@ hide_last_modified: true
     >  $$\therefore 17^{27} mod \, 55 = 17^{16+8+2+1} mod \, 55$$이므로
     >
     > $$[16 \times 26 \times 14 \times 17] mod\, 55 = 8 mod \, 55$$
+
+
+
+### Finding an Inverse Modulo n
+
+> 정수 a와 음이아닌 정수 n이 있고, 정수 s가 존재 할 때 $$as \equiv 1 (mod\, n)$$이 성립한다면 s는 *an inverse for a modulo n*이라고 한다.
